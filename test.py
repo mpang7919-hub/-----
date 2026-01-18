@@ -1,3 +1,5 @@
 
 a = 6
-print(a)
+
+demo = 8
+print(demo)
