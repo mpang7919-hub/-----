@@ -101,8 +101,7 @@ def xhs_login(account: str, password: str) -> requests.Session:
 
 
 if __name__ == "__main__":
-    account = "fanjiaman@hotata.com"
-    password = "Hotata2025"
+
 
     session = xhs_login(account, password)
     response = session.get("https://ark.xiaohongshu.com/api/edith/seller/info/v2")
